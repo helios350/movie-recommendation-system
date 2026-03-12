@@ -78,6 +78,7 @@ You can easily deploy this project on [Streamlit Cloud↗](https://streamlit.io/
 movie-recommendation-system/
 │── .streamlit/             # Local secrets (Ignored by Git)
 │   └── secrets.toml        # TMDB API Key storage
+│── Movie_Recommendation_System.ipynb  # Model building & Data Engineering     
 │── app.py                  # Main Streamlit application
 │── movies_dict.pkl         # Serialized movie dictionary
 │── vectors.pkl             # Compressed Sparse Matrix (TF-IDF features)
